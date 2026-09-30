@@ -7,11 +7,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Frameworks\Supermodel.Persistence\Supermodel.Persistence.EFCore.SQLite\Supermodel.Persistence.EFCore.SQLite.csproj" />
+    <Compile Remove="Supermodel\Persistence\CustomRepos\**" />
+    <EmbeddedResource Remove="Supermodel\Persistence\CustomRepos\**" />
+    <None Remove="Supermodel\Persistence\CustomRepos\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Supermodel\Persistence\CustomRepos\" />
+    <ProjectReference Include="..\..\..\Frameworks\Supermodel.Persistence\Supermodel.Persistence.EFCore.SQLite\Supermodel.Persistence.EFCore.SQLite.csproj" />
   </ItemGroup>
 
   <ItemGroup>

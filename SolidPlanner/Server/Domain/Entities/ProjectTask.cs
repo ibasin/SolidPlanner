@@ -22,6 +22,7 @@ public class ProjectTask : Entity
         {
             if (BestCase < 0) vrl.AddValidationResult(this, "Best Case must be greater than or equal to 0", x => x.BestCase);
             if (WorstCase < 0) vrl.AddValidationResult(this, "Worst Case must be greater than or equal to 0", x => x.WorstCase);
+            if (BestCase > WorstCase) vrl.AddValidationResult(this, "Best Case must be less than or equal to Worst Case", x => x.BestCase);
 
             var repo = LinqRepoFactory.Create<ProjectTask>();
             if (repo.Items.Any(x => x.ParentProjectId == ParentProjectId && x.SequenceNumber == SequenceNumber && x.Id != Id)) vrl.AddValidationResult(this, "Sequence Number must be unique", x => x.SequenceNumber);
