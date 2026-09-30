@@ -10,43 +10,43 @@ public class MasterMvcLayout : EmptyMvcLayout
     {
         return base.RenderDefaultLayout().FillBodySectionWith(new Tags
         { 
-            new Nav(new { @class="navbar navbar-expand-sm navbar-dark bg-primary"})
-            {
-                new Button(new { @class="navbar-toggler", type="button", data_toggle="collapse", data_target="#navbarSupportedContent", aria_controls="navbarSupportedContent", aria_expanded="false", aria_label="Toggle navigation" })
-                {
-                    new Span(new { @class="navbar-toggler-icon" })
-                },
+            //new Nav(new { @class="navbar navbar-expand-sm navbar-dark bg-primary"})
+            //{
+            //    new Button(new { @class="navbar-toggler", type="button", data_toggle="collapse", data_target="#navbarSupportedContent", aria_controls="navbarSupportedContent", aria_expanded="false", aria_label="Toggle navigation" })
+            //    {
+            //        new Span(new { @class="navbar-toggler-icon" })
+            //    },
 
-                new Div(new { @class="collapse navbar-collapse", id="navbarSupportedContent" })
-                {
-                    new Ul(new { @class="navbar-nav mr-auto" })
-                    {
-                        new Li(new { @class="nav-item dropdown", })
-                        {
-                            new A(new { @class="nav-link dropdown-toggle active", href="#", role="button", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false", })
-                            {
-                                new Txt("Menu"),
-                            },
-                            new Div(new { @class="dropdown-menu", aria_labelledby="navbarDropdown", })
-                            {
-                                new A(new { href="#", @class="dropdown-item", })
-                                {
-                                    new Txt("Dropdown Item 1"),
-                                },
-                                new A(new { href="#", @class="dropdown-item", })
-                                {
-                                    new Txt("Dropdown Item 2"),
-                                },
-                                new A(new { href="#", @class="dropdown-item", })
-                                {
-                                    new Txt("Dropdown Item 3"),
-                                },
-                            },
-                        },
-                    },
-                }
-            },
-            new Br(),
+            //    new Div(new { @class="collapse navbar-collapse", id="navbarSupportedContent" })
+            //    {
+            //        new Ul(new { @class="navbar-nav mr-auto" })
+            //        {
+            //            new Li(new { @class="nav-item dropdown", })
+            //            {
+            //                new A(new { @class="nav-link dropdown-toggle active", href="#", role="button", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false", })
+            //                {
+            //                    new Txt("Menu"),
+            //                },
+            //                new Div(new { @class="dropdown-menu", aria_labelledby="navbarDropdown", })
+            //                {
+            //                    new A(new { href="#", @class="dropdown-item", })
+            //                    {
+            //                        new Txt("Dropdown Item 1"),
+            //                    },
+            //                    new A(new { href="#", @class="dropdown-item", })
+            //                    {
+            //                        new Txt("Dropdown Item 2"),
+            //                    },
+            //                    new A(new { href="#", @class="dropdown-item", })
+            //                    {
+            //                        new Txt("Dropdown Item 3"),
+            //                    },
+            //                },
+            //            },
+            //        },
+            //    }
+            //},
+            //new Br(),
             new Div(new { id="body" }) 
             {
                 new BodySectionPlaceholder()
