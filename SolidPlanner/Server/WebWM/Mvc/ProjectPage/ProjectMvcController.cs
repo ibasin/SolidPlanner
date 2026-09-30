@@ -7,5 +7,4 @@ namespace WebWM.Mvc.ProjectPage;
 
 public class ProjectMvcController : EnhancedCRUDMvcController<Project, ProjectMvcModel, Bs4.DummySearchMvcModel, ProjectMvcView, DataContext>   
 {
-
 }

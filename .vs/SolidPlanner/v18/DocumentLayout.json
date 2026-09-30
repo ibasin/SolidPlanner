@@ -3,24 +3,36 @@
   "WorkspaceRootPath": "C:\\Projects\\SolidPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectlistmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectlistmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projecttaskpage\\projecttaskmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectlistmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectlistmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|c:\\projects\\solidplanner\\frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\childcrudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|solutionrelative:frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\childcrudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\layouts\\mastermvclayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\layouts\\emptymvclayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\layouts\\emptymvclayout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EE6360AF-D84F-40A0-925F-310263C9F893}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Supermodel.Presentation.WebMonk.Bootstrap4.csproj|c:\\projects\\solidplanner\\frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk.bootstrap4\\models\\base\\uicomponentbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -61,10 +69,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|c:\\projects\\solidplanner\\frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\enhancedcrudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|solutionrelative:frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\enhancedcrudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5A7E9F78-FDCE-47CA-B54A-9F47303C6843}|Frameworks\\WebMonk\\WebMonk\\WebMonk.csproj|c:\\projects\\solidplanner\\frameworks\\webmonk\\webmonk\\httprequesthandlers\\controllers\\controllerbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,76 +106,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ProjectTaskMvcController.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T20:37:39.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MasterMvcLayout.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T20:36:09.849Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "EmptyMvcLayout.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T20:36:07.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProjectTaskMvcModel.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAIwCQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T20:30:46.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProjectTask.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T18:55:58.182Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Util\\ModelGeneratorWM\\Program.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Util\\ModelGeneratorWM\\Program.cs",
@@ -180,84 +119,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T19:17:12.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectMvcView.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAACbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T19:04:59.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "DataSeeder.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T19:13:36.102Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Batch\\Program.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Batch\\Program.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Batch\\Program.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\Batch\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T19:14:07.921Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProjectListMvcModel.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAewCcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T18:58:54.619Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CRUDMvcController.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
-              "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
-              "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
-              "ViewState": "AgIAABgBAAAAAAAAAAD4vycBAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T19:33:09.371Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UIComponentBase.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
-              "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
-              "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDAAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T19:51:44.089Z",
               "EditorCaption": ""
             },
             {
@@ -275,7 +136,176 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectTaskMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T20:37:39.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectMvcView.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:04:59.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProjectMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:58:15.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProjectListMvcModel.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectListMvcModel.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAewCcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:58:54.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectTask.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:55:58.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProjectTaskMvcModel.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectTaskPage\\ProjectTaskMvcModel.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwAkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T20:30:46.43Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ChildCRUDMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\ChildCRUDMvcController.cs",
+              "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\ChildCRUDMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\ChildCRUDMvcController.cs",
+              "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\ChildCRUDMvcController.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAIwEEAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T20:48:18.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmptyMvcLayout.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\EmptyMvcLayout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T20:36:07.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MasterMvcLayout.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\Layouts\\MasterMvcLayout.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T20:36:09.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Supermodel\\Persistence\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:13:36.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Batch\\Program.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\Batch\\Program.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Batch\\Program.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\Batch\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:14:07.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CRUDMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
+              "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
+              "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
+              "ViewState": "AgIAABgBAAAAAAAAAAD4vycBAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:33:09.371Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UIComponentBase.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
+              "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
+              "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\Base\\UIComponentBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:51:44.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "UI.TextBoxMvcModel.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\UI.TextBoxMvcModel.cs",
               "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk.Bootstrap4\\Models\\UI.TextBoxMvcModel.cs",
@@ -288,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "MvcController.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\WebMonk\\WebMonk\\HttpRequestHandlers\\Controllers\\MvcController.cs",
               "RelativeDocumentMoniker": "Frameworks\\WebMonk\\WebMonk\\HttpRequestHandlers\\Controllers\\MvcController.cs",
@@ -301,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EnhancedCRUDMvcController.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\EnhancedCRUDMvcController.cs",
               "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\EnhancedCRUDMvcController.cs",
@@ -314,20 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ProjectMvcController.cs",
-              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
-              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
-              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-30T18:58:15.548Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Supermodel.Mobile.ModelsForRuntime.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Client\\BatchApiClientWM\\Supermodel\\ModelsForRuntime\\Supermodel.Mobile.ModelsForRuntime.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Client\\BatchApiClientWM\\Supermodel\\ModelsForRuntime\\Supermodel.Mobile.ModelsForRuntime.cs",
@@ -340,7 +357,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Program.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Program.cs",
@@ -353,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "ControllerBase.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\WebMonk\\WebMonk\\HttpRequestHandlers\\Controllers\\ControllerBase.cs",
               "RelativeDocumentMoniker": "Frameworks\\WebMonk\\WebMonk\\HttpRequestHandlers\\Controllers\\ControllerBase.cs",
@@ -366,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "DefaultPathRedirectorHttpRequestHandler.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
@@ -379,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "HomeMvcView.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
@@ -392,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "HomeMvcController.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",

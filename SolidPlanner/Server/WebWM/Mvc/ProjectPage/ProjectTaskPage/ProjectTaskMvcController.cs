@@ -4,6 +4,6 @@ using Supermodel.Presentation.WebMonk.Controllers.Mvc;
 
 namespace WebWM.Mvc.ProjectPage.ProjectTaskPage;
 
-public class ProjectTaskMvcController : InlineChildCRUDMvcController<ProjectTask, ProjectTaskMvcModel, Project, ProjectTaskMvcController, DataContext>
+public class ProjectTaskMvcController : InlineChildCRUDMvcController<ProjectTask, ProjectTaskMvcModel, Project, ProjectMvcController, DataContext>
 {
 }
