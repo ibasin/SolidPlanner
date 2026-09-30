@@ -1,0 +1,14 @@
+﻿    //Sql Server db
+    //public class DataContext : EFCoreSQLServerDataContext
+    //{
+    //    #region Constructors
+    //    public DataContext() : base(@"Data Source=.; Initial Catalog=XXYXXDb; Trusted_Connection=True; TrustServerCertificate=True", new CustomRepoFactory()) { }
+    //    #endregion
+
+    //    #region Overrides
+    //    public override Task SeedDataAsync()
+    //    {
+    //        return DataSeeder.SeedDataAsync();
+    //    }
+    //    #endregion
+    //}

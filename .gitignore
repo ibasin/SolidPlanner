@@ -1,0 +1,29 @@
+*.dtbcache
+*.suo
+*.user
+bin/
+obj/
+packages/
+project.lock.json
+sqlite3/
+*.dtbcache
+*.SQLite.db-shm
+*.SQLite.db-wal
+*.db
+*.v1
+*.bin
+*.lock
+*.v2
+*.vsidx
+/.vs/ProjectEvaluation/hwcc.wm.metadata.v5.1
+/.vs/ProjectEvaluation/hwcc.wm.projects.v5.1
+*.v5.2
+/.vs/ProjectEvaluation/hwcc.wm.metadata.v6.1
+/.vs/ProjectEvaluation/hwcc.wm.projects.v6.1
+/.vs/HWCC.WM/v17/DocumentLayout.json
+/HWCC/Server/HWCC.SQLite - Copy.db-shm
+/HWCC/Server/HWCC.SQLite - Copy.db-wal
+/.vs/HWCC.WM/v17/DocumentLayout.backup.json
+/.vs/HWCC.WM/CopilotIndices
+/.vs/HWCC.WM/v18/DocumentLayout.json
+/.vs/HWCC.WM/v18/DocumentLayout.backup.json
