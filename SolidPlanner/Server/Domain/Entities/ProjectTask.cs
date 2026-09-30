@@ -1,16 +1,19 @@
-﻿using System;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Threading.Tasks;
-using Domain.Supermodel.Persistence;
+﻿using Domain.Supermodel.Persistence;
+using Microsoft.EntityFrameworkCore;
 using Supermodel.DataAnnotations.Validations;
 using Supermodel.Persistence.Entities;
 using Supermodel.Persistence.Repository;
 using Supermodel.Persistence.UnitOfWork;
+using System;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Domain.Entities;
 
+[Index(nameof(ParentProjectId), nameof(Name), IsUnique = true)]
+[Index(nameof(ParentProjectId), nameof(SequenceNumber), IsUnique = true)]
 public class ProjectTask : Entity
 {
     #region Validation
@@ -30,6 +33,17 @@ public class ProjectTask : Entity
         }
 
         return vrl;
+    }
+    #endregion
+
+    #region Methods
+    public ProjectTask? GetNextTask()
+    {
+        return ParentProject!.ProjectTasks.OrderBy(x => x.SequenceNumber).FirstOrDefault(x => x.SequenceNumber > SequenceNumber);
+    }
+    public ProjectTask? GetPreviousTask()
+    {
+        return ParentProject!.ProjectTasks.OrderByDescending(x => x.SequenceNumber).FirstOrDefault(x => x.SequenceNumber < SequenceNumber);
     }
     #endregion
 

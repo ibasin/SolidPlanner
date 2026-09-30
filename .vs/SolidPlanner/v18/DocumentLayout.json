@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Projects\\SolidPlanner\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|c:\\projects\\solidplanner\\frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|solutionrelative:frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\crudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D14E72D2-B00F-4C12-8C35-47E2F9D49D6C}|Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Supermodel.Presentation.WebMonk.csproj|c:\\projects\\solidplanner\\frameworks\\supermodel.presentation\\webmonk\\supermodel.presentation.webmonk\\controllers\\mvc\\enhancedcrudmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,17 +78,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "CRUDMvcController.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
               "RelativeDocumentMoniker": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
               "ToolTip": "C:\\Projects\\SolidPlanner\\Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
               "RelativeToolTip": "Frameworks\\Supermodel.Presentation\\WebMonk\\Supermodel.Presentation.WebMonk\\Controllers\\Mvc\\CRUDMvcController.cs",
-              "ViewState": "AgIAABkBAAAAAAAAAAD4vx8BAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAIAAAAAAAAAAAAD4v48AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T19:33:09.371Z",
               "EditorCaption": ""
@@ -134,13 +134,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ProjectTask.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs*",
-              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAIwCkAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T18:55:58.182Z",
               "EditorCaption": ""
@@ -173,13 +173,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
-              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\Project.cs*",
-              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\Project.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAIwCYAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T18:21:48.069Z",
               "EditorCaption": ""
