@@ -48,7 +48,7 @@ public class ProjectTask : Entity
     #endregion
 
     #region Properties
-    [Required] public virtual Project? ParentProject { get; set; };
+    [Required] public virtual Project? ParentProject { get; set; }
     public long ParentProjectId { get; set; }
 
     [Required] public uint SequenceNumber { get; set; }
