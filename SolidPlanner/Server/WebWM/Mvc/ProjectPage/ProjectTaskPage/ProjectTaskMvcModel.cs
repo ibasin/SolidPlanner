@@ -29,10 +29,11 @@ public class ProjectTaskMvcModel : Bs4.ChildMvcModelForEntity<ProjectTask, Proje
     #endregion
 
     #region Properties
-    [Required, MaxLength(200)] public Bs4.TextBoxMvcModel Name { get; set; } = new();
-    public Bs4.CheckboxMvcModel Ignore { get; set; } = new();
-    [Required] public Bs4.TextBoxMvcModel BestCase { get; set; } = new();
-    [Required] public Bs4.TextBoxMvcModel WorstCase { get; set; } = new();
-    [NotMapped, DisplayOnly] public int Expected { get; set; } 
+    [Required, ListColumn] public Bs4.TextBoxMvcModel SequenceNumber { get; set; } = new();
+    [Required, ListColumn, MaxLength(200)] public Bs4.TextBoxMvcModel Name { get; set; } = new();
+    [ListColumn] public Bs4.CheckboxMvcModel Ignore { get; set; } = new();
+    [Required, ListColumn] public Bs4.TextBoxMvcModel BestCase { get; set; } = new();
+    [Required, ListColumn] public Bs4.TextBoxMvcModel WorstCase { get; set; } = new();
+    [NotMapped, ListColumn, DisplayOnly] public int Expected { get; set; } 
     #endregion
 }
