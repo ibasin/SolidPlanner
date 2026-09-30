@@ -100,6 +100,6 @@ public class Program
     #endregion
 
     #region Constants
-    public const int HttpPort = 46482;
+    public const int HttpPort = 45244;
     #endregion
 }

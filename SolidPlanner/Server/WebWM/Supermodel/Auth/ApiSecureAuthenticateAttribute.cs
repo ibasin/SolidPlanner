@@ -73,10 +73,10 @@ public class ApiSecureAuthenticateAttribute: SupermodelAuthenticateAttributeBase
     #endregion
 
     #region Shared Constants
-    public static readonly byte[] Key = { 0x38, 0xB3, 0x63, 0x71, 0x3C, 0x2B, 0x82, 0x7E, 0xB1, 0x6E, 0xB7, 0x7A, 0x74, 0x27, 0x3D, 0x34 };
+    public static readonly byte[] Key = { 0x4E, 0xD0, 0xD2, 0x77, 0x51, 0xE4, 0xD9, 0x62, 0x45, 0x9D, 0xDB, 0x04, 0x55, 0x6E, 0x9B, 0x91 };
     public static readonly string HeaderName = "X-SolidPlanner-Authorization";
     // ReSharper disable StringLiteralTypo
-    public static readonly string SecretToken = "pBkBuzj3KSbq97wdE0XYjlsM7LKoJr+l8K69LDPGO56GfeihQFsiE0+pc55o3YcvP4z46IYlPwyizVc/O351WQ";
+    public static readonly string SecretToken = "SG4oXo/iYnlJ5FLtKh7zXMydry+flLxVNzzsEG+4Sxa+1um6LJpB8FN1os4W7mGwc8aQJIyIbhBs9wkY+CFHNg";
     // ReSharper restore StringLiteralTypo
     #endregion
 }
