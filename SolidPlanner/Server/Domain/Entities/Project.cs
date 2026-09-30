@@ -48,11 +48,11 @@ public class Project : Entity
     {
         var subproject = ProjectTasks.Where(x => !x.Ignore && (start == null || x.SequenceNumber >= start) && (end == null || x.SequenceNumber <= end)).ToArray();
 
-        var sd = (subproject.Sum(x => x.WorstCase) - subproject.Sum(x => x.BestCase)) / 6.0;
+        var projectSigma = Math.Sqrt(subproject.Sum(x => Math.Pow(x.CalcSigma(), 2)));
         
         var expected = subproject.Sum(x => x.Expected);
-        var bestCase = expected - sd;
-        var worstCase = expected + sd;
+        var bestCase = expected - projectSigma;
+        var worstCase = expected + projectSigma;
 
         return new Estimate(bestCase, worstCase, expected);
     }

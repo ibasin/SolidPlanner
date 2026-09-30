@@ -45,6 +45,10 @@ public class ProjectTask : Entity
     {
         return ParentProject!.ProjectTasks.OrderByDescending(x => x.SequenceNumber).FirstOrDefault(x => x.SequenceNumber < SequenceNumber);
     }
+    public double CalcSigma()
+    {
+        return (WorstCase - BestCase) / 2.563;
+    }
     #endregion
 
     #region Properties
