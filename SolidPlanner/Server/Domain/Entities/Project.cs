@@ -48,7 +48,7 @@ public class Project : Entity
     {
         var subproject = ProjectTasks.Where(x => !x.Ignore && (start == null || x.SequenceNumber >= start) && (end == null || x.SequenceNumber <= end)).ToArray();
 
-        var projectSigma = Math.Sqrt(subproject.Sum(x => Math.Pow(x.CalcSigma(), 2)));
+        var projectSigma = Math.Sqrt(subproject.Sum(x => Math.Pow(x.CalcTaskSigma(), 2)));
         
         var expected = subproject.Sum(x => x.Expected);
         var bestCase = expected - projectSigma;

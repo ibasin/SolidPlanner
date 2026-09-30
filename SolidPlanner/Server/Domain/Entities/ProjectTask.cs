@@ -37,15 +37,7 @@ public class ProjectTask : Entity
     #endregion
 
     #region Methods
-    public ProjectTask? GetNextTask()
-    {
-        return ParentProject!.ProjectTasks.OrderBy(x => x.SequenceNumber).FirstOrDefault(x => x.SequenceNumber > SequenceNumber);
-    }
-    public ProjectTask? GetPreviousTask()
-    {
-        return ParentProject!.ProjectTasks.OrderByDescending(x => x.SequenceNumber).FirstOrDefault(x => x.SequenceNumber < SequenceNumber);
-    }
-    public double CalcSigma()
+    public double CalcTaskSigma()
     {
         return (WorstCase - BestCase) / 2.563;
     }
