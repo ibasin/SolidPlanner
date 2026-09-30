@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Projects\\SolidPlanner\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A3F10A8B-489C-48FF-A046-273B9AA012E6}|SolidPlanner\\Server\\Domain\\Domain.csproj|solutionrelative:solidplanner\\server\\domain\\entities\\projecttask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\defaultpathredirectorhttprequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\defaultpathredirectorhttprequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\projectpage\\projectmvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\homepage\\homemvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\homepage\\homemvccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|c:\\projects\\solidplanner\\solidplanner\\server\\webwm\\mvc\\homepage\\homemvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA48537F-367C-4954-A360-67C242F69992}|SolidPlanner\\Server\\WebWM\\WebWM.csproj|solutionrelative:solidplanner\\server\\webwm\\mvc\\homepage\\homemvcview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,11 +42,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "ProjectMvcModel.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcModel.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcModel.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcModel.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:58:54.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProjectMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:58:15.548Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DefaultPathRedirectorHttpRequestHandler.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\DefaultPathRedirectorHttpRequestHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:56:43.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "HomeMvcView.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:56:39.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeMvcController.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\HomePage\\HomeMvcController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T18:56:37.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ProjectTask.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\ProjectTask.cs",
@@ -35,15 +124,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
               "RelativeDocumentMoniker": "SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
               "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
               "RelativeToolTip": "SolidPlanner\\Server\\Domain\\Entities\\Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-30T18:21:48.069Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProjectMvcView.cs",
+              "DocumentMoniker": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "RelativeDocumentMoniker": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "ToolTip": "C:\\Projects\\SolidPlanner\\SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "RelativeToolTip": "SolidPlanner\\Server\\WebWM\\Mvc\\ProjectPage\\ProjectMvcView.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-30T19:04:59.729Z",
               "EditorCaption": ""
             }
           ]

@@ -9,7 +9,7 @@ namespace Domain.Entities;
 public class Project : Entity
 {
     #region Embedded Types
-    public readonly struct Estimate(int BestCase, int WorstCase, int Expected);
+    public record struct Estimate(int BestCase, int WorstCase, int Expected);
     #endregion
 
     #region Oevrrides
