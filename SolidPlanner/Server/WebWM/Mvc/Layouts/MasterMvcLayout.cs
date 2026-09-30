@@ -1,9 +1,5 @@
-using Supermodel.Presentation.WebMonk.Context;
 using WebMonk.RazorSharp.HtmlTags;
 using WebMonk.RazorSharp.HtmlTags.BaseTags;
-using WebMonk.Rendering.Views;
-using WebWM.Mvc.AuthPage;
-using WebWM.Mvc.SolidPlannerUserUpdatePasswordPage;
 
 namespace WebWM.Mvc.Layouts;
 
@@ -48,21 +44,6 @@ public class MasterMvcLayout : EmptyMvcLayout
                             },
                         },
                     },
-                    new Ul(new { @class="nav-item navbar-nav navbar-right" })
-                    {
-                        new Li(new { @class="nav-item dropdown" })
-                        {
-                            new A(new { @class="nav-link dropdown-toggle active", href="#", id="navbarDropdown2", role="button", data_toggle="dropdown", aria_haspopup="true", aria_expanded="false"})
-                            {
-                                new Txt($"Welcome, {RequestHttpContext.CurrentUserLabel}")
-                            },
-                            new Div(new { @class="dropdown-menu", aria_labelledby="navbarDropdown" })
-                            {
-                                Render.ActionLink<SolidPlannerUserUpdatePasswordMvcController>("Change Password", x => x.GetDetailAsync(RequestHttpContext.CurrentUserId!.Value), new { @class="dropdown-item" }),
-                                Render.ActionLink<AuthMvcController>("Sign Out", x => x.GetLogOut(), new { @class="dropdown-item" })
-                            }
-                        }
-                    }
                 }
             },
             new Br(),

@@ -7,7 +7,6 @@ using Microsoft.Extensions.Hosting;
 using Supermodel.Persistence.EFCore;
 using Supermodel.Persistence.UnitOfWork;
 using WebWM.Mvc.Layouts;
-using WebWM.Supermodel.Auth;
 using WebWM.WindowsService;
 
 namespace WebWM;
@@ -81,7 +80,7 @@ public class Program
             LoginUrl = "/Auth/Login",
             DefaultLayout = new MasterMvcLayout()
         };
-        webServer.GlobalFilters.Add(new ApiSecureAuthenticateAttribute());
+        //webServer.GlobalFilters.Add(new ApiSecureAuthenticateAttribute());
         //webServer.GlobalFilters.Add(new ApiBasicAuthenticateAttribute());
         #endregion
 

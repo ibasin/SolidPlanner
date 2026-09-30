@@ -8,7 +8,7 @@ class Program
 {
     static void Main()
     {
-        var modelGenerator = new ModelGen([typeof(WebWM.Mvc.SolidPlannerUserUpdatePasswordPage.SolidPlannerUserUpdatePasswordMvcController).Assembly]);
+        var modelGenerator = new ModelGen([typeof(WebWM.Mvc.ProjectPage.ProjectMvcController).Assembly]);
         var sb = modelGenerator.GenerateModels();
         var code = sb.ToString();
 

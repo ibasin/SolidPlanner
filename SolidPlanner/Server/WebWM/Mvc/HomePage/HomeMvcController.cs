@@ -1,5 +1,4 @@
 ﻿using WebMonk.Extensions;
-using WebMonk.Filters;
 using WebMonk.HttpRequestHandlers.Controllers;
 using WebMonk.Results;
 
