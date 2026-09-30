@@ -39,7 +39,7 @@ public class ProjectTask : Entity
 
     [Required] public uint SequenceNumber { get; set; }
 
-    [Required] public string Name { get; set; } = "";
+    [Required, MaxLength(200)] public string Name { get; set; } = "";
     public bool Ignore { get; set; }
     [Required] public int BestCase { get; set; }
     [Required] public int WorstCase { get; set; }

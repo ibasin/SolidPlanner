@@ -1,4 +1,5 @@
-﻿using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
 using Domain.Entities;
 using Supermodel.DataAnnotations.Attributes;
 using Supermodel.Presentation.WebMonk.Bootstrap4.Models;
@@ -25,9 +26,9 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
     #endregion
 
     #region Properties
-    [ListColumn] public Bs4.TextBoxMvcModel Name { get; } = new();
-    [NotRMapped, ListColumn] public Bs4.TextBoxMvcModel BestCase { get; } = new();
-    [NotRMapped, ListColumn] public Bs4.TextBoxMvcModel WorstCase { get; } = new();
-    [NotRMapped, ListColumn] public Bs4.TextBoxMvcModel Expected { get; } = new();
+    [Required, ListColumn] public Bs4.TextBoxMvcModel Name { get; } = new();
+    [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel BestCase { get; } = new();
+    [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel WorstCase { get; } = new();
+    [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel Expected { get; } = new();
     #endregion
 }
