@@ -16,7 +16,7 @@ namespace Domain.Entities;
 public class Project : Entity
 {
     #region Embedded Types
-    public record struct Estimate(int BestCase, int WorstCase, int Expected);
+    public record struct Estimate(double BestCase, double WorstCase, double Expected);
     #endregion
 
     #region Validaton
@@ -48,7 +48,7 @@ public class Project : Entity
     {
         var subproject = ProjectTasks.Where(x => !x.Ignore && (start == null || x.SequenceNumber >= start) && (end == null || x.SequenceNumber <= end)).ToArray();
 
-        var sd = (int)Math.Round((subproject.Sum(x => x.BestCase) + subproject.Sum(x => x.WorstCase)) / 6.0);
+        var sd = (subproject.Sum(x => x.WorstCase) - subproject.Sum(x => x.BestCase)) / 6.0;
         
         var expected = subproject.Sum(x => x.Expected);
         var bestCase = expected - sd;

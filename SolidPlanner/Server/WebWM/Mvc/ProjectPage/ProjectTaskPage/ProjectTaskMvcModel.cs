@@ -34,6 +34,7 @@ public class ProjectTaskMvcModel : Bs4.ChildMvcModelForEntity<ProjectTask, Proje
     [Required, ListColumn] public Bs4.TextBoxMvcModel Name { get; set; } = new();
     [Required, ListColumn] public Bs4.TextBoxMvcModel BestCase { get; set; } = new();
     [Required, ListColumn] public Bs4.TextBoxMvcModel WorstCase { get; set; } = new();
-    [NotMapped, ListColumn, DisplayOnly] public int Expected { get; set; } 
+    [NotMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel Expected { get; set; } = new() { DisplayNumericFormat = "F1" };
+
     #endregion
 }

@@ -57,6 +57,6 @@ public class ProjectTask : Entity
     public bool Ignore { get; set; }
     [Required] public int BestCase { get; set; }
     [Required] public int WorstCase { get; set; }
-    [NotMapped] public int Expected => (int)Math.Round((BestCase + 3*(BestCase + WorstCase)/2.0 + 2*WorstCase) / 6.0);
+    [NotMapped] public double Expected => (BestCase + 4*(BestCase + WorstCase)/2.0 + WorstCase) / 6.0;
     #endregion
 }
