@@ -4,7 +4,6 @@ using Supermodel.DataAnnotations.Validations;
 using Supermodel.Persistence.Entities;
 using Supermodel.Persistence.Repository;
 using Supermodel.Persistence.UnitOfWork;
-using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
@@ -20,6 +19,8 @@ public class ProjectTask : Entity
     public override async Task<ValidationResultList> ValidateAsync(ValidationContext validationContext)
     {
         var vrl = await base.ValidateAsync(validationContext);
+
+        if (Name.Trim().EndsWith(":")) vrl.AddValidationResult(this, $"Name '{Name}' cannot end with a colon", x => x.Name);
 
         await using (new UnitOfWorkIfNoAmbientContext<DataContext>(MustBeWritable.No))
         {
