@@ -9,6 +9,9 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using CsvMaker.CsvString;
+using CsvMaker.Extensions;
+using Supermodel.ReflectionMapper;
 
 namespace Domain.Entities;
 
@@ -55,6 +58,22 @@ public class Project : Entity
         var worstCase = expected + projectSigma;
 
         return new Estimate(bestCase, worstCase, expected);
+    }
+    public async Task<string> ToCsv()
+    {
+        var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
+        await projectTasksCsvModels.MapFromAsync(ProjectTasks.ToList());
+        return projectTasksCsvModels.ToCsv().ToString();
+    }
+    public async Task FromCsv(string csvFile)
+    {
+        var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
+        projectTasksCsvModels.ReadCsv(new CsvStringReader(csvFile));
+        
+        foreach (var projectTask in ProjectTasks) projectTask.Delete();
+        ProjectTasks.Clear();
+
+        await projectTasksCsvModels.MapToAsync(ProjectTasks);
     }
     #endregion
 
