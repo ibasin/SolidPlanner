@@ -34,6 +34,8 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
     [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel WorstCase { get; set; } = new() { DisplayNumericFormat = "F1" };
     [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel Expected { get; set; } = new() { DisplayNumericFormat = "F1" };
 
+    //[NotRMapped, DisplayName("Project Tasks (csv file)"), HtmlAttr("data-csv", "true")] public Bs4.BinaryFileMvcModel ProjectTasksCsvFile { get; set; } = new();
+
     [NotRMappedTo] public List<ProjectTaskMvcModel> ProjectTasks { get; set; } = new();
     #endregion
 }

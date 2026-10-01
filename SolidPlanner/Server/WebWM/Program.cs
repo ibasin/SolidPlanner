@@ -55,11 +55,11 @@ public class Program
         #endregion
 
         #region Re-seeding database code (either use this or Migration database code)
-        bool AskUserWhetherToReseedDb()
-        {
-            Console.Write("Do you want to re-seed the database (if not sure, answer no or press enter) [yes/no]? ");
-            return Console.ReadLine()!.Trim().ToLower() == "yes";
-        }
+        //bool AskUserWhetherToReseedDb()
+        //{
+        //    Console.Write("Do you want to re-seed the database (if not sure, answer no or press enter) [yes/no]? ");
+        //    return Console.ReadLine()!.Trim().ToLower() == "yes";
+        //}
         await using (new UnitOfWork<DataContext>())
         {
             if (!await EFCoreUnitOfWorkContext.Database.CanConnectAsync() /*|| AskUserWhetherToReseedDb()*/)

@@ -28,6 +28,14 @@ public class ProjectMvcController : EnhancedCRUDMvcController<Project, ProjectMv
     }
     #endregion
 
+    #region After Action Methods
+    protected override async Task<ActionResult> AfterCreateAsync(long id, Project entityItem, ProjectMvcModel mvcModelItem)
+    {
+        await UnitOfWorkContext.FinalSaveChangesAsync();
+        return StayOnDetailScreen(entityItem.Id);
+    }
+    #endregion
+
     #region Helper Methods
     private static string MakeSafeFileName(string input, char replacement = '_')
     {
