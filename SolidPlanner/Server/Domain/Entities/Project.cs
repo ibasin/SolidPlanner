@@ -63,7 +63,13 @@ public class Project : Entity
     {
         var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
         await projectTasksCsvModels.MapFromAsync(ProjectTasks.ToList());
-        return projectTasksCsvModels.ToCsv().ToString();
+        var csv = projectTasksCsvModels.ToCsv();
+        
+        //Append totals
+        var estimate = CalcEstimate();
+        csv.Append($"\nBest Case:,{estimate.BestCase:F1}\nWorstCase:,{estimate.WorstCase:F1}\nExpected:,{estimate.Expected:F1}\n");
+
+        return csv.ToString();
     }
     public async Task LoadFromCsvAsync(string csvFile)
     {
