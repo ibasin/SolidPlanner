@@ -4,7 +4,7 @@ using Supermodel.Presentation.WebMonk.Bootstrap4.Models;
 using Supermodel.Presentation.WebMonk.Bootstrap4.Views;
 using Supermodel.Presentation.WebMonk.Views.Interfaces;
 using WebMonk.RazorSharp.HtmlTags.BaseTags;
-using WebWM.Mvc.ProjectPage.ProjectTaskPage;
+using WebWM.Supermodel.TagComponents;
 
 namespace WebWM.Mvc.ProjectPage;
 
@@ -14,6 +14,10 @@ public class ProjectMvcView : EnhancedCRUDMvcView<ProjectMvcModel, Bs4.DummySear
 
     protected override IGenerateHtml? RenderChildren(ProjectMvcModel model)
     {
-        return new Bs4.CRUDMultiColumnChildrenEditableList(model.ProjectTasks.OrderBy(x => x.SequenceNumber.IntValue), typeof(DataContext), typeof(ProjectTaskMvcController), model.Id, "Tasks");
+        //return new Bs4.CRUDMultiColumnChildrenEditableList(model.ProjectTasks.OrderBy(x => x.SequenceNumber.IntValue), typeof(DataContext), typeof(ProjectTaskMvcController), model.Id, "Tasks");
+        return new Tags()
+        {
+            new CRUDMultiColumnChildrenEditableListForProjectTasks(model.ProjectTasks.OrderBy(x => x.SequenceNumber.IntValue), model.Id, "Tasks")
+        };
     }
 }
