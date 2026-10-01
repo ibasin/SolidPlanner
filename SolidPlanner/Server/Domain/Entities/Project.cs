@@ -59,13 +59,13 @@ public class Project : Entity
 
         return new Estimate(bestCase, worstCase, expected);
     }
-    public async Task<string> ToCsv()
+    public async Task<string> SaveToCsvAsync()
     {
         var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
         await projectTasksCsvModels.MapFromAsync(ProjectTasks.ToList());
         return projectTasksCsvModels.ToCsv().ToString();
     }
-    public async Task FromCsv(string csvFile)
+    public async Task LoadFromCsvAsync(string csvFile)
     {
         var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
         projectTasksCsvModels.ReadCsv(new CsvStringReader(csvFile));
