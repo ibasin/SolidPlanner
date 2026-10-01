@@ -25,13 +25,19 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
         WorstCase.DoubleValue = estimate.WorstCase;
         Expected.DoubleValue = estimate.Expected;
 
+        await base.MapFromCustomAsync(other);
+    }
+    public override async Task<T> MapToCustomAsync<T>(T other)
+    {
+        var project = CastToEntity(other);
+
         if (Id == 0 && !ProjectTasksCsvFile.IsEmpty)
         {
             var csvFile = Encoding.UTF8.GetString(ProjectTasksCsvFile.BinaryContent!);
             await project.LoadFromCsvAsync(csvFile);
         }
 
-        await base.MapFromCustomAsync(other);
+        return await base.MapToCustomAsync(other);
     }
     #endregion
 
