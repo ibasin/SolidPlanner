@@ -73,6 +73,8 @@ public class Project : Entity
     }
     public async Task LoadFromCsvAsync(string csvFile)
     {
+        csvFile = RemoveSummaryAndBlankLinesFromCsv(csvFile);
+
         var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
         projectTasksCsvModels.ReadCsv(new CsvStringReader(csvFile));
         
@@ -80,6 +82,16 @@ public class Project : Entity
         ProjectTasks.Clear();
 
         await projectTasksCsvModels.MapToAsync(ProjectTasks);
+    }
+    private string RemoveSummaryAndBlankLinesFromCsv(string csv)
+    {
+        csv = csv.Replace("\r", "");
+        var lines = csv.Split('\n');
+        lines = lines.Where(x => x.Trim().Length > 0).ToArray();
+        var index = Array.FindIndex(lines, x => x.StartsWith("Best Case:"));
+        if (index < 0) return csv;
+
+        return string.Join('\n', lines.Take(index));
     }
     #endregion
 
