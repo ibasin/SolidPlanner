@@ -6,6 +6,12 @@
 	<Nullable>enable</Nullable>
   </PropertyGroup>
 
+	<PropertyGroup>
+		<RuntimeIdentifier>win-x64</RuntimeIdentifier>
+		<SelfContained>true</SelfContained>
+		<PublishSingleFile>true</PublishSingleFile>
+	</PropertyGroup>
+
   <ItemGroup>
     <None Remove="MigrationScripts\script.sql" />
     <None Remove="wwwroot\css\site.css" />
