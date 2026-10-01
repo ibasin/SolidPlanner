@@ -62,7 +62,7 @@ public class Project : Entity
     public async Task<string> SaveToCsvAsync()
     {
         var projectTasksCsvModels = new List<ProjectTaskCsvModel>();
-        await projectTasksCsvModels.MapFromAsync(ProjectTasks.ToList());
+        await projectTasksCsvModels.MapFromAsync(ProjectTasks.Where(x => !x.Ignore).ToList());
         var csv = projectTasksCsvModels.ToCsv();
         
         //Append totals
