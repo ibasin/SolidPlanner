@@ -11,12 +11,11 @@ using WebMonk.Results;
 
 namespace WebWM.Mvc.ProjectPage;
 
-public class ProjectMvcController : EnhancedCRUDMvcController<Project, ProjectMvcModel, Bs4.DummySearchMvcModel,
-    ProjectMvcView, DataContext>
+public class ProjectMvcController : EnhancedCRUDMvcController<Project, ProjectMvcModel, Bs4.DummySearchMvcModel, ProjectMvcView, DataContext>
 {
     #region Action Methods
 
-    public async Task<ActionResult> DownloadCsvAsync(long id)
+    public async Task<ActionResult> GetCsvAsync(long id)
     {
         await using (new UnitOfWork<DataContext>(ReadOnly.Yes))
         {
