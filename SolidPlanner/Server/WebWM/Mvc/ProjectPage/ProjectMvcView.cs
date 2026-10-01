@@ -14,7 +14,6 @@ public class ProjectMvcView : EnhancedCRUDMvcView<ProjectMvcModel, Bs4.DummySear
 
     protected override IGenerateHtml? RenderChildren(ProjectMvcModel model)
     {
-        //return new Bs4.CRUDMultiColumnChildrenEditableList(model.ProjectTasks.OrderBy(x => x.SequenceNumber.IntValue), typeof(DataContext), typeof(ProjectTaskMvcController), model.Id, "Tasks");
         return new Tags()
         {
             new CRUDMultiColumnChildrenEditableListForProjectTasks(model.ProjectTasks.OrderBy(x => x.SequenceNumber.IntValue), model.Id, "Tasks")

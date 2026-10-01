@@ -62,7 +62,7 @@ public class Program
         }
         await using (new UnitOfWork<DataContext>())
         {
-            if (!await EFCoreUnitOfWorkContext.Database.CanConnectAsync() || AskUserWhetherToReseedDb())
+            if (!await EFCoreUnitOfWorkContext.Database.CanConnectAsync() /*|| AskUserWhetherToReseedDb()*/)
             {
                 Console.Write("Recreating the database... ");
                 await EFCoreUnitOfWorkContext.Database.EnsureDeletedAsync();
