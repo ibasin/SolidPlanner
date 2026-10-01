@@ -35,6 +35,15 @@ public class ProjectMvcView : EnhancedCRUDMvcView<ProjectMvcModel, Bs4.DummySear
 
         return tags;
     }
+    public override IGenerateHtml RenderDetail(ProjectMvcModel model)
+    {
+        var html = base.RenderDetail(model);
+
+        //if not a new project, remove the CSV file upload field from the form
+        if (model.Id != 0) html.RemoveWhere(x => x.Attributes.KeyExistsAndContains("data-csv", "true")); 
+        
+        return html;
+    }
     #endregion
 
     #region Overrides

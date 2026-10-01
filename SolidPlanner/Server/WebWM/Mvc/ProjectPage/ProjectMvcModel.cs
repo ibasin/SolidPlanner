@@ -3,7 +3,9 @@ using Supermodel.DataAnnotations.Attributes;
 using Supermodel.Presentation.WebMonk.Bootstrap4.Models;
 using Supermodel.ReflectionMapper;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
+using System.Text;
 using System.Threading.Tasks;
 using WebWM.Mvc.ProjectPage.ProjectTaskPage;
 
@@ -14,7 +16,7 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
     #region Overrides
     public override string Label => Name.Value;
 
-    public override Task MapFromCustomAsync<T>(T other)
+    public override async Task MapFromCustomAsync<T>(T other)
     {
         var project = CastToEntity(other);
 
@@ -23,7 +25,13 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
         WorstCase.DoubleValue = estimate.WorstCase;
         Expected.DoubleValue = estimate.Expected;
 
-        return base.MapFromCustomAsync(other);
+        if (Id == 0 && !ProjectTasksCsvFile.IsEmpty)
+        {
+            var csvFile = Encoding.UTF8.GetString(ProjectTasksCsvFile.BinaryContent!);
+            await project.LoadFromCsvAsync(csvFile);
+        }
+
+        await base.MapFromCustomAsync(other);
     }
     #endregion
 
@@ -34,7 +42,7 @@ public class ProjectMvcModel : Bs4.MvcModelForEntity<Project>
     [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel WorstCase { get; set; } = new() { DisplayNumericFormat = "F1" };
     [NotRMapped, ListColumn, DisplayOnly] public Bs4.TextBoxMvcModel Expected { get; set; } = new() { DisplayNumericFormat = "F1" };
 
-    //[NotRMapped, DisplayName("Project Tasks (csv file)"), HtmlAttr("data-csv", "true")] public Bs4.BinaryFileMvcModel ProjectTasksCsvFile { get; set; } = new();
+    [NotRMapped, DisplayName("Project Tasks (.csv file)"), HtmlAttr("data-csv", "true")] public Bs4.BinaryFileMvcModel ProjectTasksCsvFile { get; set; } = new();
 
     [NotRMappedTo] public List<ProjectTaskMvcModel> ProjectTasks { get; set; } = new();
     #endregion
