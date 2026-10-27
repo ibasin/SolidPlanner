@@ -31,6 +31,16 @@ public class ProjectMvcController : EnhancedCRUDMvcController<Project, ProjectMv
     #region After Action Methods
     protected override async Task<ActionResult> AfterCreateAsync(long id, Project entityItem, ProjectMvcModel mvcModelItem)
     {
+        if (entityItem.ProjectTasks.All(x => x.SequenceNumber == 0))
+        {
+            uint sequenceNumber = 100;
+            foreach (var entityItemProjectTask in entityItem.ProjectTasks)
+            {
+                entityItemProjectTask.SequenceNumber = sequenceNumber;
+                sequenceNumber += 100;
+            }
+        }
+
         await UnitOfWorkContext.FinalSaveChangesAsync();
         return StayOnDetailScreen(entityItem.Id);
     }
