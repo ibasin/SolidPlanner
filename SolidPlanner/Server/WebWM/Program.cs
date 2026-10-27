@@ -85,15 +85,16 @@ public class Program
         #endregion
 
         #region Start Web Server. If in Debug open the browser, otherwise just sit and listen for web requests
-        if (Debugger.IsAttached)
-        {
-            await webServer.RunAsync("/");
-            //await webServer.RunAsync();
-        }
-        else
-        {
-            await webServer.RunAsync();
-        }
+        await webServer.RunAsync("/");
+        //if (Debugger.IsAttached)
+        //{
+        //    await webServer.RunAsync("/");
+        //    //await webServer.RunAsync();
+        //}
+        //else
+        //{
+        //    await webServer.RunAsync();
+        //}
         #endregion
     }
     #endregion
